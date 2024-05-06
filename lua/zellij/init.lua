@@ -119,7 +119,7 @@ function zellij.setup(opts)
         opts.whichKeyEnabled = false
     end
     if opts.debug == true then
-        # print("Zellij plugin debug mode")
+        -- print("Zellij plugin debug mode")
         local date = os.time(os.date("!*t"))
         opts.logPath = "/tmp/zellij.nvim/log-" .. date .. ".txt"
     end
